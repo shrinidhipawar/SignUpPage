@@ -70,7 +70,7 @@ hr {
 }
 
 #message {
-    display: none; /* Initially hidden */
+    display: none; 
     color: green;
     margin-top: 20px;
     font-size: 16px;
