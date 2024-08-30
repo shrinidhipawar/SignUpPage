@@ -1,28 +1,27 @@
+<!DOCTYPE html>
 <html>
-    <head>
-       <title>Sign Up</title>
-       <link rel="stylesheet" href="style.css">
-      
-       </head>
-          <body>
-            <div class="Sign-Up">
-                <h1> Sign Up Now </h1>
-                <form>
-                   <input type="Name" class="input-box" placeholder="Your Full Name">
-                   <input type="Email" class="input-box" placeholder="Your Email">
-                   <input type="Phone Number" class="input-box" placeholder="Your Phone Number">
-                   
-                   <p><span><input type="checkbox"></span> I agree to the terms and conditions</p>
-                    <button type="button" class="SignUp-btn">Sign Up</button>
-                    <hr>
-                    <p class="or">OR</p>
-                    <button type="button" class="gmail-btn">Log In With Gmail</button>
-                    <p>Have an account? <a href="#">Sign in</a></p>
-                                   </form>
-             </div>
- 
- 
-             
-          </body>
-    
- </html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Sign-Up">
+        <h1>Sign Up Now</h1>
+        <form id="signupForm">
+            <input type="text" id="name" class="input-box" placeholder="Your Full Name">
+            <input type="email" id="email" class="input-box" placeholder="Your Email">
+            <input type="tel" id="phone" class="input-box" placeholder="Your Phone Number">
+            <p>
+                <span><input type="checkbox" id="agree"></span> I agree to the terms and conditions
+            </p>
+            <button type="submit" class="SignUp-btn">Sign Up</button>
+            <hr>
+            <p class="or">OR</p>
+            <button type="button" class="gmail-btn">Log In With Gmail</button>
+            <p>Have an account? <a href="#">Sign in</a></p>
+        </form>
+        <div id="message" style="display: none; color: green; margin-top: 20px;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
