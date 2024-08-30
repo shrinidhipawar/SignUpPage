@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return false;
             }
 
-            // If all checks pass
+            
             messageDiv.style.display = 'block';
             messageDiv.textContent = 'Sign Up Successful!';
         });
